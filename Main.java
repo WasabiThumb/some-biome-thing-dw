@@ -20,14 +20,14 @@ import org.bukkit.block.Biome;
 public class Main extends JavaPlugin implements Listener {
 	
 	@Override
-    public void onEnable() {
+    	public void onEnable() {
 		System.out.println("[GCatan] Blip Bloop Bleep, I am ON!");
 		getServer().getPluginManager().registerEvents(this, this);
 		System.out.println("[GCatan] Events registered.");
 	}
 	
 	@Override
-    public void onDisable() {
+    	public void onDisable() {
 		System.out.println("[GCatan] Bye Bye");
 	}
 	
